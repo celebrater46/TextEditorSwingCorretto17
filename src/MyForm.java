@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+// For Test
 public class MyForm extends JFrame {
     private JPanel panel1;
     private JButton button1;
