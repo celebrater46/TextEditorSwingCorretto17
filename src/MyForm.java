@@ -24,9 +24,9 @@ public class MyForm extends JFrame {
     public MyForm() {
         super("Text Editor");
 
-        label1 = new JLabel();
-        buttonRead = new JButton();
-        buttonWrite = new JButton();
+        label1 = new JLabel("Choose your file.");
+        buttonRead = new JButton("Read");
+        buttonWrite = new JButton("Write");
         textArea1 = new JTextArea();
         scrollPane1 = new JScrollPane();
         panel1 = new JPanel();
