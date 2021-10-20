@@ -40,6 +40,9 @@ public class MyForm extends JFrame {
 
         buttonRead.addActionListener(new buttonActionListener());
         buttonWrite.addActionListener(new buttonActionListener());
+        addWindowListener(new WindowListener());
+        setSize(400, 300);
+        setVisible(true);
 
 //        buttonRead.addMouseListener(new MouseAdapter() {
 //            @Override
