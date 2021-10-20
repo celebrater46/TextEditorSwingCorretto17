@@ -5,11 +5,12 @@ import java.awt.event.MouseEvent;
 // For Test
 public class MyForm extends JFrame {
     private JPanel panel1;
-    private JButton button1;
     private JLabel label1;
+    private JButton buttonRead;
+    private JButton buttonWrite;
 
     public MyForm() {
-        button1.addMouseListener(new MouseAdapter() {
+        buttonRead.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
